@@ -1,0 +1,5 @@
+<center>
+  <{foreach item=graph from=$block.graph}>
+   <div style="position:relative; clear:both;"><a href="<{$xoops_url}>/modules/usage/"><img src="<{$graph.graph}>"></a><br/>System Usage Integrity: <{$graph.integrity}></div>
+  <{/foreach}>
+</center>
